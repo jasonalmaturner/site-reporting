@@ -15,7 +15,7 @@ module.exports = {
 			res.send(err);
 		})
 	},
-
+// is getCurrentUser even being used?
 	getCurrentUser: function (req, res) {
 		authService.getCurrentUser(req.body).then(function(data){
 			console.log('getCurrentUser worked');
